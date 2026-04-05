@@ -1,31 +1,24 @@
 body {
+    padding-top: 70px;
     font-family: Arial;
-    text-align: center;
-    background-color: #f4f4f4;
 }
 
-.container {
-    margin: 20px;
+/* Hero */
+.hero {
+    height: 100vh;
+    background: url("https://source.unsplash.com/1600x900/?restaurant") no-repeat center;
+    background-size: cover;
 }
 
-input {
-    padding: 10px;
-    margin: 5px;
+/* Cards */
+.card {
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
 }
 
-button {
-    padding: 10px;
-    background-color: blue;
-    color: white;
-    border: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    background: white;
-    margin: 5px;
-    padding: 10px;
+/* Navbar hover */
+.nav-link:hover {
+    color: orange !important;
 }
